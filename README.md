@@ -10,15 +10,19 @@ As funcionalidades podem executadas através da janela de terminal da IDE ou do 
 
 Bibliotecas utilizadas: 
 
-MatPlotLib - Para a visualização gráfica dos dados, 
+MatPlotLib v3.9.0 - Para a visualização gráfica dos dados, 
 Baixar utilizando o comando:
 
-pip install matplotlib
+pip install MatPlotLib
 
-NumPy - Para auxílio nos calculos e utilização do MatPlotLib,
+pip install --upgrade MatPlotLib
+
+NumPy ver1.26.4 - Para auxílio nos calculos e utilização do MatPlotLib,
 Baixar utilizando o comando:
 
 pip install numpy
+
+pip install --upgrade numpy
 
 
 #Fluxo
@@ -39,6 +43,8 @@ forca_escolha: Força o usuário a escolher entre os caracteres necessários par
 
 ajusta_curva: ajusta a curva para os dados recebidos, caso o interesse de ver outros dados.
 
-predicta_resultado: 
+predicta_resultado: equação que descreve a função da regressão linear
+
+plota_grafico: função para a exibição visual do gráfico
 
 

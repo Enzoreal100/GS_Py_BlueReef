@@ -74,12 +74,14 @@ while True:
             resultados = predicta_resultado(ajusta_curva(mes, medias_mensais), mes)
             i = 1
             j = 0
-            for i in range(12):
-                predicao_medias.append(resultados[i])
-                predicao_mes.append(i + 1)
+            for (i) in range(12):
+                predicao_mes.append(i + 125)
+                coefs = ajusta_curva(mes, medias_mensais)
+                c = coefs[1] + coefs[0] * predicao_mes[i]
+                predicao_medias.append(c)
                 i += 1
             while j in range(len(predicao_mes)):
-                print(f'Mes {predicao_mes[j]} = {predicao_medias[j]:.2f} °C')
+                print(f'Mes {predicao_mes[j] - 124} = {predicao_medias[j]:.2f} °C')
                 j += 1
             break
 

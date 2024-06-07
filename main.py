@@ -31,6 +31,9 @@ def forca_escolha(msg, cond1, cond2,  msg_erro):
 
 #Func para o ajuste na curva
 def ajusta_curva(x, y):
+    # Polyfit simplifica para fazer o método de mínimos quadrados,
+    # fazendo as derivadas parciais automaticamente e retornando os coeficiente da função que se
+    # encaixam com o menor malor médio de distância dos pontos recebidos.
     coefs = np.polyfit(x, y, 1)
     return coefs
 

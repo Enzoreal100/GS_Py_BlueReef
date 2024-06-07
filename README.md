@@ -20,9 +20,9 @@ Baixar utilizando o comando:
 NumPy ver1.26.4 - Para auxílio nos calculos e utilização do MatPlotLib,
 Baixar utilizando o comando:
 
-pip install numpy
-
-pip install --upgrade numpy
+    pip install numpy
+    
+    pip install --upgrade numpy
 
 
 # Fluxo

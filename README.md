@@ -12,10 +12,10 @@ Bibliotecas utilizadas:
 
 MatPlotLib v3.9.0 - Para a visualização gráfica dos dados, 
 Baixar utilizando o comando:
-
-pip install MatPlotLib
-
-pip install --upgrade MatPlotLib
+    
+    pip install MatPlotLib
+    
+    pip install --upgrade MatPlotLib
 
 NumPy ver1.26.4 - Para auxílio nos calculos e utilização do MatPlotLib,
 Baixar utilizando o comando:

@@ -1,3 +1,10 @@
+Alunos: 
+
+Enzo Gaião Real - RM 557943
+
+Gustavo Pasquini Lucas - RM 555454
+
+Vitor Couto Victorino - RM 554965
 # Sobre
 
 O Previsor de Temperaturas powered by Blue Reef é uma ferramenta criada para ser utilizada em conjunto com todo o ecossistema da Blue Reef.
@@ -46,5 +53,9 @@ ajusta_curva: ajusta a curva para os dados recebidos, caso o interesse de ver ou
 predicta_resultado: equação que descreve a função da regressão linear
 
 plota_grafico: função para a exibição visual do gráfico
+
+
+# Vídeo Explicativo
+Link: https://youtu.be/DNmFB6-deJ0
 
 
